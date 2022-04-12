@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+.page_section
+{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 100px 30px;
+}
+.title_text
+{
+    font-size: 40px;
+}
+.text_content
+{
+    margin-top: 15px;
+    width: 400px;
+}
+.menu_list
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 300px;
+
+}
+.menu_link
+{
+    color: #000;
+    text-decoration: none;
+    
+}
+.retang
+{
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+  
+}
+.content
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    
+}
+.header
+{
+    width: 100%;
+}
+.nav
+{
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1220px;
+    margin: 0 auto;
+
+}
+.logo
+{
+    font-size: 40px;
+}
+@media (max-width: 440px)
+{
+  .menu_list
+  {
+    max-width: 200px;
+  }
+  .text_content
+  {
+      width: 300px;
+  }
+}
+@media (max-width: 930px)
+{
+    .retang
+    {
+        margin: 30px 0px;
+    }
+}
+@media (max-width: 376px)
+{
+.container
+{
+    max-width: 320px;
+}
+.nav
+{
+    max-width: 320px;
+}
+.menu_list
+{
+    max-width: 150px;
+}
+.page_section
+{
+    max-width: 375px;
+}
+.text_content
+{
+    width: 300px;
+}
+}
+
